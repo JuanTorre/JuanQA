@@ -14,12 +14,6 @@
     --fz-footer: 17px;
 }
 
-@font-face {
-    font-family: 'Kulim Park', sans-serif;
-    src: url();
-}
-
-
 body {
     box-sizing: border-box;
     width: 100%;
@@ -34,27 +28,32 @@ img {
 }
 
 p {
+    font-family: 'Kulim Park', sans-serif;
     font-size: var(--fz-paragraph);
     color: black;
 }
 
 a {
+    font-family: 'Kulim Park', sans-serif;
     font-size: var(--fz-menu);
     color: black;
     text-decoration: none;
 }
 
 h1 {
+    font-family: 'Kulim Park', sans-serif;
     font-size: 45px;
     color: #c0c0c0;
 }
 
 h2 {
+    font-family: 'Kulim Park', sans-serif;
     font-size: 40px;
     color: black;
 }
 
 h3 {
+    font-family: 'Kulim Park', sans-serif;
     font-size: 18px;
     color: black;
 }
