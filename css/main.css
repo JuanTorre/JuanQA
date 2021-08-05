@@ -57,14 +57,14 @@ p {
 .site-header {
     box-sizing: border-box;
     width: 100%;
-    height: auto;
+    height: 40em;
     background-color: black;
 }
 
 .header-container {
     box-sizing: border-box;
     width: 90%;
-    height: auto;
+    height: 100%;
     margin-left: 5%;
 }
 
@@ -74,26 +74,10 @@ p {
     height: auto;
 }
 
-.image-container {
-    box-sizing: border-box;
-    width: auto;
-    height: auto;
-    margin-left: 25%;
-    margin-right: 25%;
-    padding-top: 15%;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-.image-container img{
-    width: 100%;
-    height: 100%;
-}
-
 .title-container {
     box-sizing: border-box;
     width: 100%;
-    height: auto;
+    height: 30em;
 }
 
 .title-container h1 {
@@ -103,6 +87,7 @@ p {
 }
 
 .title-container h3 {
+    font-size: 25px;
     padding-bottom: 10%;
     text-align: center;
     color: #c0c0c0;
@@ -113,7 +98,6 @@ p {
     width: 100%;
     height: auto;
     padding-bottom: 5%;
-    border: 1px solid white;
 }
 
 .contact-button {
@@ -198,7 +182,6 @@ p {
     box-sizing: border-box;
     width: 100%;
     height: 20em;
-    border: 1px solid black;
 }
 
 .mangmt-services {
@@ -213,7 +196,6 @@ p {
     box-sizing: border-box;
     width: 100%;
     height: 20em;
-    border: 1px solid black;
 }
 
 .automation-services {
@@ -266,8 +248,20 @@ p {
     padding-bottom: 20%;
 }
 
-.contact-me {
-    color: white;
+.contact-button2 {
+    box-sizing: border-box;
+    width: 250px;
+    height: 60px;
+    margin: 10% 0% 15% 15%;
+    padding: 15px 25px 10px 0px;
+    background-color: #c0c0c0;
+    border-radius: 30px;
+    text-align: center;
+    background-image: url(/images/email_black_24dp.svg);
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position-x: 190px;
+    background-position-y: center;
 }
 
 /* Footer CSS */
@@ -313,8 +307,304 @@ p {
     font-size: 15px;
 }
 
-@media (min-width: 55em) {
+@media screen and (min-width: 500px) 
+{
+    
+    .contact-button {
+        width: 350px;
+        height: 60px;
+        margin: 15% 0% 15% 12%;
+        padding: 13px 40px 10px 0px;
+        background-color: #c0c0c0;
+        border-radius: 50px;
+        background-size: 45px;
+        background-position-x: 240px;
+        background-position-y: center;
+    }
+
+    .contact-button a{
+        font-size: 30px;
+    }
+    
+    .title-container h1 {
+        font-size: 45px;
+    }
+
+    .title-container h3 {
+        font-size: 35px;
+    }
+
+    .services-title h1 {
+        font-size: 45px;
+    }
+
+    .my-services h2 {
+        font-size: 35px;
+    }
+
+    .my-services p {
+        font-size: 25px;
+    }
+
+    .mybackground-container h3 {
+        font-size: 25px;
+    }
+
+    .mybackground-container a {
+        font-size: 25px;
+    }
+
+    .contact-button2 {
+        width: 350px;
+        height: 60px;
+        margin: 15% 0% 15% 12%;
+        padding: 13px 40px 10px 0px;
+        background-color: #c0c0c0;
+        border-radius: 50px;
+        background-size: 45px;
+        background-position-x: 240px;
+        background-position-y: center;
+    }
+
+    .social-container {
+        margin-left: 5%;
+        margin-top: 0%;
+        padding-left: 60%;
+        padding-top: 15%;
+        padding-bottom: 10%;
+    }
+
+    .social-container img {
+        width: 75%;
+        height: 75%;
+    }
+
+    .copyright-container {
+        margin-left: 5%;
+        padding-top: 5%;
+        padding-bottom: 20%;
+    }
+
+    .copyright-container p {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (min-width: 700px) 
+{
+
+    .contact-button {
+        width: 450px;
+        height: 95px;
+        margin: 15% 0% 15% 18%;
+        padding: 23px 40px 10px 0px;
+        background-color: #c0c0c0;
+        border-radius: 50px;
+        background-size: 65px;
+        background-position-x: 320px;
+        background-position-y: center;
+    }
+
+    .contact-button a{
+        font-size: 40px;
+    }
+    
+    .title-container h1 {
+        font-size: 70px;
+    }
+
+    .title-container h3 {
+        font-size: 55px;
+    }
+
+    .services-title h1 {
+        font-size: 65px;
+    }
+
+    .my-services h2 {
+        font-size: 55px;
+    }
+
+    .my-services p {
+        font-size: 45px;
+    }
+
+    .mybackground-container h3 {
+        font-size: 55px;
+    }
+
+    .mybackground-container a {
+        font-size: 55px;
+    }
+
+    .contact-button2 {
+        width: 450px;
+        height: 95px;
+        margin: 15% 0% 15% 18%;
+        padding: 23px 40px 10px 0px;
+        background-color: #c0c0c0;
+        border-radius: 50px;
+        background-size: 65px;
+        background-position-x: 320px;
+        background-position-y: center;
+    }
+
+    .social-container {
+        margin-left: 5%;
+        margin-top: 0%;
+        padding-left: 60%;
+        padding-top: 15%;
+        padding-bottom: 10%;
+    }
+
+    .social-container img {
+        width: 85%;
+        height: 85%;
+    }
+
+    .copyright-container {
+        margin-left: 5%;
+        padding-top: 5%;
+        padding-bottom: 20%;
+    }
+
+    .copyright-container p {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1000px) 
+{
+    
+    .header-container {
+        width: 100%;
+        height: 40em;
+        margin-left: 0%;
+    }
+    
+    .logo-container {
+        width: 60%;
+        height: auto;
+        float: left;
+    }
+    
+    .title-container {
+        width: 100%;
+        height: 30em;
+    }
+    
+    .title-container h1 {
+        font-size: 50px;
+        text-align: left;
+        padding-left: 15%;
+        padding-right: 10%;
+    }
+    
+    .title-container h3 {
+        font-size: 30px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 15%;
+        text-align: left;
+    }
+    
+    .header-menu {
+        width: 40%;
+        height: auto;
+        float: left;
+    }
+    
+    .contact-button {
+        box-sizing: border-box;
+        width: 250px;
+        height: 70px;
+        margin: 10% 20% 0% 10%;
+        padding: 20px 50px 9px 0px;
+        background-size: 40px;
+        background-position-x: 175px;
+    }
+
+    .contact-button a {
+        font-size: 25px;
+    }
+
+    .services-title h1 {
+        font-size: 45px;
+    }
+
+    .my-services-container {
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+
+    .services-title {
+        margin-top: 10%;
+        margin-bottom: 0%;
+    }
+
     .my-services {
         grid-auto-flow: column;
+        margin-top: 5%;
+        margin-bottom: 10%;
     }
+
+    .my-services h2 {
+        font-size: 40px;
+    }
+
+    .my-services p {
+        font-size: 30px;
+    }
+
+    .mybackground-container h3 {
+        font-size: 45px;
+    }
+
+    .mybackground-container a {
+        font-size: 45px;
+    }
+
+    .section3-container {
+        height: 30em;
+    }
+
+    .contactame-container {
+        padding-top: 15%;
+        padding-bottom: 10%;
+    }
+
+    .contact-button2 {
+        width: 250px;
+        height: 70px;
+        margin: 0% 10% 0% 40%;
+        padding: 20px 50px 9px 0px;
+        background-size: 40px;
+        background-position-x: 175px;
+    }
+
+    .social-container {
+        margin-left: 5%;
+        margin-top: 0%;
+        padding-left: 80%;
+        padding-right: 0%;
+        padding-top: 5%;
+        padding-bottom: 1%;
+    }
+
+    .social-container img {
+        width: 70%;
+        height: 70%;
+    }
+
+    .copyright-container {
+        margin-left: 5%;
+        padding-top: 0%;
+        padding-bottom: 5%;
+    }
+
+    .copyright-container p {
+        font-size: 15px;
+    }
+
 }
